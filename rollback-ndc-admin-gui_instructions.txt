@@ -1,0 +1,11 @@
+1.)
+
+rollback-ndc-admin-gui.sh has to be present on the landcyy003p on the following path:
+
+/tmp/ndc/rollback-ndc-admin-gui.sh
+
+2.)
+
+Run the rollback script (as tomcat user!) from the landcyy003p Linux terminal using the following command:
+
+./rollback-ndc-admin-gui.sh

@@ -1,0 +1,17 @@
+1.)
+
+deploy-ndc-admin-gui.sh has to be present on the landcyy003p on the following path:
+
+/tmp/ndc/deploy-ndc-admin-gui.sh
+
+2.)
+
+ndc-admin-gui.war has to be present on the landcyy003p on the following path:
+
+/tmp/ndc/to-be-deployed/ndc-admin-gui.war
+
+3.)
+
+Run the deployment script (as tomcat user!) from the landcyy003p Linux terminal using the following command:
+
+./deploy-ndc-admin-gui.sh
